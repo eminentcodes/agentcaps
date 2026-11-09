@@ -1,0 +1,53 @@
+{
+  "name": "agentcaps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "npm run compile && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit --incremental false",
+    "compile": "node scripts/compile.mjs",
+    "test": "npm run compile && node --test tests/vault.test.mjs tests/authorization.test.mjs",
+    "chain": "hardhat node --hostname 127.0.0.1",
+    "deploy:local": "npm run compile && node scripts/deploy.mjs local",
+    "prepare:testnet": "node scripts/prepare-testnet.mjs",
+    "status:testnet": "node --env-file=.env.testnet.local scripts/testnet-status.mjs",
+    "deploy:testnet": "npm run compile && node --env-file=.env.testnet.local scripts/deploy.mjs testnet",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@phosphor-icons/react": "^2.1.10",
+    "@radix-ui/react-alert-dialog": "^1.2.1",
+    "@radix-ui/react-dialog": "^1.3.1",
+    "@radix-ui/react-slot": "^1.5.0",
+    "@tanstack/react-query": "^5.105.1",
+    "clsx": "^2.1.1",
+    "motion": "^14.9.0",
+    "next": "^16.4.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0",
+    "viem": "^2.57.14",
+    "wagmi": "^3.7.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.3",
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^2.29.1",
+    "solc": "^0.8.28",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

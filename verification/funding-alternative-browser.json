@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-08T18:14:17.299Z",
+  "results": [
+    {
+      "url": "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "finalUrl": "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "text": "Skip to main content\nGoogle Cloud Web3\nSign in\nhome\nHome\nsmart_toy\nAI Playground\nfaucet\nFaucet\nverified_user\nProtocols\nrebase_edit\nUniversal Ledger\nbolt\nStartup Program\ntravel_explore\nDiscover\nfeedback\nFeedback\ndescription\nPrivacy Policy\nGet your $USA₮ token on Self faucet today!\nOpen faucet →\nLoading faucet",
+      "inputs": [],
+      "buttons": [
+        "",
+        "",
+        "feedbackFeedback"
+      ],
+      "links": [
+        {
+          "text": "Sign in",
+          "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://cloud.google.com/application/web3/faucet/ethereum/sepolia&followup=https://cloud.google.com/application/web3/faucet/ethereum/sepolia&ec=GAZAjQI"
+        },
+        {
+          "text": "faucetFaucet",
+          "href": "https://cloud.google.com/application/web3/faucet"
+        },
+        {
+          "text": " Open faucet → ",
+          "href": "https://cloud.google.com/application/web3/faucet/celo/mainnet"
+        }
+      ]
+    },
+    {
+      "url": "https://console.optimism.io/faucet",
+      "finalUrl": "https://console.optimism.io/faucet",
+      "text": "",
+      "inputs": [],
+      "buttons": [],
+      "links": []
+    },
+    {
+      "url": "https://sepolia-faucet.pk910.de/",
+      "finalUrl": "https://sepolia-faucet.pk910.de/",
+      "text": "Loading...",
+      "inputs": [],
+      "buttons": [
+        "Start Mining"
+      ],
+      "links": []
+    },
+    {
+      "url": "https://faucet.circle.com/",
+      "finalUrl": "https://faucet.circle.com/",
+      "error": "TimeoutError: locator.innerText: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body')\u001b[22m\n"
+    }
+  ]
+}

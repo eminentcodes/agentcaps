@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-08T17:18:23.912Z",
+  "results": [
+    {
+      "url": "https://ethfaucet.com/networks/base",
+      "finalUrl": "https://ethfaucet.com/networks/base",
+      "error": "TimeoutError: locator.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByPlaceholder(/Enter wallet address/)\u001b[22m\n\u001b[2m    - waiting for \"https://ethfaucet.com/networks/base/base-sepolia\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://ethfaucet.com/networks/base\"\u001b[22m\n\u001b[2m    - waiting for \"https://ethfaucet.com/networks/base/base-sepolia\" navigation to finish...\u001b[22m\n"
+    },
+    {
+      "url": "https://faucets.chain.link/base-sepolia",
+      "finalUrl": "https://faucets.chain.link/base-sepolia",
+      "error": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Continue', exact: true })\u001b[22m\n"
+    }
+  ]
+}

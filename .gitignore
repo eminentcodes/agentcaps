@@ -1,0 +1,28 @@
+node_modules/
+.next/
+.env*
+!.env.example
+artifacts/contracts/
+cache/
+coverage/
+*.tsbuildinfo
+*.log
+verification/*.png
+verification/*.webm
+
+# Local deployment output and downloaded research pages
+deployments/local.json
+verification/*.html
+verification/*.js
+verification/*.txt
+verification/circle-*.md
+verification/chainstack-*.md
+hackathon-rules.html
+hackathon-reference.html
+hackathon-page.js
+
+# Local tooling and caches
+.cache/
+.agents/
+.codex/
+.aws/
